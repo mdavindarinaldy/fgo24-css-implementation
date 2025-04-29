@@ -1,0 +1,23 @@
+{
+  "name": "fgo24-css-implementation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdavindarinaldy/fgo24-css-implementation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdavindarinaldy/fgo24-css-implementation/issues"
+  },
+  "homepage": "https://github.com/mdavindarinaldy/fgo24-css-implementation#readme",
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

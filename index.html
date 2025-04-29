@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Implementation</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css2?family=Bellefair&display=swap);
+
+        html {
+            font-family: "Bellefair";
+        }
+
+        div>div>div {
+            display: inline-block;
+            padding: 20px 20px;
+        }
+        div>div>div.a {
+            display: inline-block;
+            width: 60%;
+            text-align: left;
+        }
+        div>div.b>div {
+            display: block;
+            padding: 1px;
+        }
+        div {
+            background-color: white;
+            text-align: center;
+        }
+        body {
+            background-color: pink;
+        }
+        button {
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            padding: 5px;
+            font-size: 10px;
+            width: 100px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <div class="a"><b>SNAP</b>SOUND</div>
+            <div>Home</div>
+            <div>About</div>
+            <div>Process</div>
+            <div>Portofolio</div>
+            <div>Contact</div>
+        </div>
+        <div class="b">
+            <div><h1>The Storyteller</h1></div>
+            <div>
+                <p>As a storyteller you are driven by imagination and creativity.</p>
+                <p>As an independent filmmaker your understand the importance of craft</p>
+                <p>and attention to detail. At Snapsound your film is our passion.</p>
+            </div>
+        </div>
+        <div>
+            <button>Get in touch</button>
+        </div>
+    </div>
+</body>
+</html>
